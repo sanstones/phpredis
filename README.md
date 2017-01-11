@@ -4,7 +4,7 @@
 *使用方法*    
     
 
-```javascript
+```php
 <?php
 namespace XXXXX;    
 use redis\redis;
