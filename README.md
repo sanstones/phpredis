@@ -1,5 +1,5 @@
 # phpredis
-**封装php的redis,简洁版**
+**封装php的redis,简洁版(常用方法）**
 
 *使用方法*    
     
