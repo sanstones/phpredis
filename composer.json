@@ -1,0 +1,21 @@
+{
+    "name": "ninesongs/php_redis",
+    "description": "php redis class",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nine Songs",
+            "email": "ninesongs52069@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "redis\\": "redis"
+        }
+    }
+}
