@@ -14,7 +14,12 @@ class Redis
     }
     public function __clone(){trigger_error('Clone is not allow!',E_USER_ERROR);}
 
-    // 设置缓存
+    /**
+     * 设置缓存
+     * @param [type] $key    [key]
+     * @param [type] $value  [value]
+     * @param string $expire [expire]
+     */
     public function set($key,$value,$expire=''){
         //对数组/对象数据进行处理
         $value  =  $this->disposeAdd($value);
